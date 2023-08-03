@@ -1,0 +1,78 @@
+
+.nav {
+   background-color: #fdd670 !important;
+   border-bottom: 1px solid #dfb547;
+   height: 55px;
+}
+
+#sidebar{
+    width: 15%;
+   
+}
+
+
+.search-form input[type="search"] {
+    padding-right: 36px; 
+  }
+
+  .search-icon {
+    position: absolute;
+    color: #383735;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+.selectedLocale{
+    color:#ff686e;
+    font-weight: bold;
+}
+.lang{
+    height: 55px;
+}
+
+.divider{
+    color:rgb(46, 47, 48);
+    font-weight: bold;
+}
+
+
+
+.signInBtn {
+    border: 0;
+    border-radius: 0;
+    background-color: #ff686e;
+    border-bottom: 1px solid #ff4e56;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.nav-item.dropdown:nth-child(1){
+    border-color:#615e58 ;
+    height: 55px;
+}
+
+
+.landingpage{
+    background-image: url('../images/landingBannerTop-mango.jpg');
+   
+    height: 50vh;
+    width: 100%;
+    position: relative;
+   
+}
+
+.spOffer{
+    width: 47%;
+}
+
+.offcanvas {
+    z-index: 1050; 
+}
